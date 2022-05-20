@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+    min-height: 200vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100;
+}
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+    
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li{
+    list-style: none;
+    position: relative;
+}
+header ul li a{
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 05s;
+    text-transform: uppercase;
+}
+/* .bannar{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  
+    background-size: cover;
+} */
+header.sticky .logo,
+    
+header.sticky ul li a{
+    color: black;
+    
+}
+
+section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background: url(https://images.pexels.com/photos/205000/pexels-photo-205000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPwtultG_y_DMm0vZwWLb0IaMODtz7L_bM8Q&usqp=CAU);
+    background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   clip-path: circle(0px at center);
+}
+
+.container{
+    position: relative;
+    margin-top: 200vh;
+    /* background-color: white; */
+    padding: 100px;
+    /* width: 100vh;
+    height: 100vh; */
+}
+.title{
+    position: relative;
+    top: 250px;
+    font-size: 3em;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.form{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+
+
+
+
+/* .loginBox{
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    width: 350px;
+   height: 420px;
+    background: blanchedalmond;
+    margin-left: 100px;
+    margin-top: 100px;
+} 
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50%,-50);
+} */
